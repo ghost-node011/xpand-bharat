@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import Preloader from './components/Preloader';
 import Analytics from './components/Analytics';
+import WhatsAppButton from './components/WhatsAppButton';
 
 import Home from './pages/Home';
 import ForBrands from './pages/ForBrands';
@@ -68,6 +69,7 @@ function App() {
                     </Routes>
                   </main>
                   <Footer />
+                  <WhatsAppButton />
                 </div>
               </>
             }
