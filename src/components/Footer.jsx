@@ -9,6 +9,8 @@ const COLS = [
       { label: 'For Investors', to: '/for-investors' },
       { label: 'Growth Opportunities', to: '/growth-opportunities' },
       { label: 'Industries', to: '/industries' },
+      { label: 'Buy a Franchise', to: '/buy-franchise-in-india' },
+      { label: 'Franchise Business in India', to: '/franchise-business-in-india' },
     ],
   },
   {

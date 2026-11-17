@@ -12,7 +12,7 @@ const subscribers = new Set(); // re-render hooks when the batch arrives
 
 function notify() { subscribers.forEach(fn => fn()); }
 
-function prefetchAll() {
+export function prefetchAll() {
   if (allPromise) return allPromise;
   allPromise = fetch(`${API}/page`)
     .then(r => r.json())

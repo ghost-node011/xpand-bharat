@@ -8,7 +8,7 @@ import { Helmet } from 'react-helmet';
  * and must be used verbatim.
  */
 
-export const SITE_URL = 'https://xpandbharat.com';
+export const SITE_URL = 'https://www.xpandbharat.com';
 export const SITE_NAME = 'XPAND Bharat';
 const DEFAULT_IMAGE = `${SITE_URL}/logo.png`;
 

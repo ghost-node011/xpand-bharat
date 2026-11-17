@@ -185,6 +185,7 @@ export default function GrowthOpportunities() {
             .go-desc { opacity: 1 !important; transform: translateY(0) !important; }
             .go-grad { background: linear-gradient(180deg,rgba(4,8,15,0.6) 0%,rgba(4,8,15,0.08) 30%,rgba(4,8,15,0.97) 100%) !important; }
           }
+          .site-root h2.go-diff-title { font-size: clamp(26px, min(4.4vw, 6.4vh), 52px) !important; }
           @media (max-width: 900px) and (min-width: 769px) {
             .go-grid-wrap { grid-template-columns: repeat(2, 1fr) !important; }
           }
@@ -202,9 +203,9 @@ export default function GrowthOpportunities() {
         <div className="xb-grid-2col" style={{ maxWidth: '1440px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '72px', alignItems: 'start', position: 'relative', zIndex: 1 }}>
           <FadeSection className="go-diff-left" style={{ position: 'sticky', top: '100px' }}>
             <div className="section-label">What Makes These Different</div>
-            <h1 style={{ fontFamily: "'Fraunces', serif", fontWeight: 700, color: '#fff', marginBottom: '24px', lineHeight: 1.1 }}>
+            <h2 className="go-diff-title" style={{ fontFamily: "'Fraunces', serif", fontWeight: 700, color: '#fff', marginBottom: '24px', lineHeight: 1.1 }}>
               Built for serious,<br /><span style={{ color: 'var(--orange)' }}>scalable growth.</span>
-            </h1>
+            </h2>
             <div style={{ width: '48px', height: '2px', background: 'var(--orange)', margin: '28px 0' }} />
             <p style={{ color: 'rgba(255,255,255,0.52)', fontSize: '16px', lineHeight: 1.85, marginBottom: '48px', maxWidth: '360px' }}>
               Every opportunity on our platform passes through a structured screening process before it reaches a serious investor.
